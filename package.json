@@ -1,0 +1,9 @@
+{
+  "name": "meebits-space",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "pnpm --filter '*' run --parallel dev",
+    "test": "pnpm --filter '*' run --parallel test"
+  }
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "startBlock": 12358080,
+    "eventsABI": [
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "from",
+            "type": "address"
+          },
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          },
+          {
+            "indexed": true,
+            "internalType": "uint256",
+            "name": "tokenId",
+            "type": "uint256"
+          }
+        ],
+        "name": "Transfer",
+        "type": "event"
+      }
+    ],
+    "address": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7"
+  }
+]

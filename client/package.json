@@ -1,0 +1,42 @@
+{
+  "name": "meebits-space-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@pixiv/three-vrm": "1.0.0-beta.17",
+    "do-verse": "0.0.3",
+    "postprocessing": "^6.28.1",
+    "rambda": "^7.1.4",
+    "three": "^0.140.2"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.49",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.2",
+    "@tsconfig/svelte": "^3.0.0",
+    "@types/dat.gui": "^0.7.7",
+    "@types/three": "^0.140.0",
+    "autoprefixer": "^10.4.7",
+    "cssnano": "^5.1.12",
+    "dotenv": "^16.0.1",
+    "dotenv-cli": "^5.1.0",
+    "postcss": "^8.4.14",
+    "svelte": "^3.48.0",
+    "svelte-check": "^2.7.2",
+    "svelte-preprocess": "^4.10.7",
+    "tailwindcss": "^3.1.4",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.12"
+  },
+  "scripts": {
+    "dev": "dotenv vite",
+    "dev:remote": "dotenv -e .env.remote vite",
+    "build": "dotenv -e .env.remote vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "typescriptLibraries": "lib"
+}

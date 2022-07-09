@@ -1,0 +1,10 @@
+node_modules/
+.mf/
+dist/
+wrangler.toml
+.vscode/*
+scripts/.*
+
+.env*
+!*.default
+setup/feeds
