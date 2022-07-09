@@ -109,10 +109,12 @@ import { meebitAsset } from './meebits/utils';
 export { MeebitsRoom as Room };
 
 import { EthereumEventsDO } from '../lib/do-verse/lib/do-ethereum-events/src/EthereumEventsDO';
-EthereumEventsDO.alarm = {
-  interval: 15,
-  individualCall: true,
-};
+// EthereumEventsDO.alarm = {
+//   interval: 15,
+//   individualCall: true,
+// };
+EthereumEventsDO.alarm = null;
+EthereumEventsDO.scheduled = { interval: 10 };
 
 export { Blockchain as EthereumEventsDO } from '../lib/do-verse/src/Blockchain';
 
