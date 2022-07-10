@@ -22,11 +22,12 @@ export async function handleRequest(
     const { patharray } = pathFromURL(request.url);
 
     switch (new URL(request.url).pathname) {
-      case '/events/setup': // TODO should be guarded by admin authentication
+      // case '/events/setup': // TODO should be guarded by admin authentication
       case '/events/list':
-      case '/events/feed': // TODO should be guarded by admin authentication
+      // case '/events/feed': // TODO should be guarded by admin authentication
       case '/events/status':
-      case '/events/trigger-alarm': // TODO remove or admin gated
+      // case '/events/start': // TODO should be guarded by admin authentication
+      // case '/events/trigger-alarm': // TODO remove or admin gated
       // case '/events/set-alarm-if-stuck': // TODO remove or admin gated
       case '/query':
         // we only need one DO so we use _GLOBAL_ id
@@ -114,7 +115,7 @@ import { EthereumEventsDO } from '../lib/do-verse/lib/do-ethereum-events/src/Eth
 //   individualCall: true,
 // };
 EthereumEventsDO.alarm = null;
-EthereumEventsDO.scheduled = { interval: 10 };
+EthereumEventsDO.scheduled = { interval: 15 };
 
 export { Blockchain as EthereumEventsDO } from '../lib/do-verse/src/Blockchain';
 
