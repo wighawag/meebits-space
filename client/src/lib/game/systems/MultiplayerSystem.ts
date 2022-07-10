@@ -122,6 +122,7 @@ export class MultiplayerSystem implements System<SupportedComponents> {
       console.log(`entity already exist`);
       // TODO replace ?
     } else {
+      // TODO need to be able to specify animation once loaded or sync it
       const model: CModel['model'] = {
         source: `${serverURL}/assets/${tokenID}.vrm`,
         type: 'vrm',
