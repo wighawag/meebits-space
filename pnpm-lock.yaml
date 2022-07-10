@@ -14,7 +14,7 @@ importers:
       '@types/three': ^0.140.0
       autoprefixer: ^10.4.7
       cssnano: ^5.1.12
-      do-verse: 0.0.3
+      do-verse: 0.0.8
       dotenv: ^16.0.1
       dotenv-cli: ^5.1.0
       postcss: ^8.4.14
@@ -30,7 +30,7 @@ importers:
       vite: ^2.9.12
     dependencies:
       '@pixiv/three-vrm': 1.0.0-beta.17_sbqfl526g56lanu43mjaunlrfa
-      do-verse: 0.0.3
+      do-verse: 0.0.8
       postprocessing: 6.28.1_three@0.140.2
       rambda: 7.1.4
       three: 0.140.2
@@ -2123,19 +2123,6 @@ packages:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
     dev: true
 
-  /do-ethereum-events/0.2.14:
-    resolution: {integrity: sha512-4oCEzpfHR+8P+TOEiKZ2MQbe1AzFW2wHTmmkXNqQxlAo3OJz3HuxCtzZPzCS25EfDOprsJVqw7vGXfE3GtIdVw==}
-    requiresBuild: true
-    dependencies:
-      '@ethersproject/abi': 5.6.4
-      '@ethersproject/address': 5.6.1
-      '@ethersproject/bytes': 5.6.1
-      do-json-db: 0.0.17
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
-    dev: false
-
   /do-ethereum-events/0.2.15:
     resolution: {integrity: sha512-JtbXJ5r4zBaGFCyGqWomfxxjaVw9Y1rRiLu8c2rqe46zqMk7Dv0Q6Hy67Po65A1rYbEVH3j3A3dGEuQK6cizzg==}
     requiresBuild: true
@@ -2175,17 +2162,6 @@ packages:
       - bufferutil
       - utf-8-validate
     dev: true
-
-  /do-verse/0.0.3:
-    resolution: {integrity: sha512-49iKOMXqCzDE54c5cmj9rEU5WHmI8Q+SOTUQt4lqWWtvEmOjErKdRXgZ2PaN5BNBvj83EYYBU9YMaTvgxuoEww==}
-    requiresBuild: true
-    dependencies:
-      '@ethersproject/wallet': 5.6.2
-      do-ethereum-events: 0.2.14
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
-    dev: false
 
   /do-verse/0.0.8:
     resolution: {integrity: sha512-ywfezmzNyp8r5qW0mpNrGMlkyQJ0waKFU4USB1wfik6Kfsi9qBPakclAYiD7PQkoZnfm7ll9s32vGzoGgtEZwQ==}

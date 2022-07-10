@@ -5,7 +5,7 @@
   "type": "module",
   "dependencies": {
     "@pixiv/three-vrm": "1.0.0-beta.17",
-    "do-verse": "0.0.3",
+    "do-verse": "0.0.8",
     "postprocessing": "^6.28.1",
     "rambda": "^7.1.4",
     "three": "^0.140.2"
